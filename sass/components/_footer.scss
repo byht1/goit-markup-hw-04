@@ -125,6 +125,11 @@
   }
 }
 
+.network-footer-box__elements .network-footer-box__link:focus {
+  background-color: $colorBlue;
+  border-radius: 50%;
+}
+
 // Форма or form-footer
 
 .form-footer-box {

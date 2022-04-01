@@ -55,9 +55,12 @@
 }
 
 .company-list__elements:hover,
-.company-list__elements:focus,
-.company-list__elements:hover .company-list__link,
-.company-list__elements:focus .company-list__link {
+.company-list__elements:focus {
+  color: $colorBlue;
+  border-color: $colorBlue;
+}
+.company-list__elements .company-list__link:hover,
+.company-list__elements .company-list__link:focus {
   color: $colorBlue;
   border-color: $colorBlue;
 }
